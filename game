@@ -10,7 +10,7 @@ def print_board(board):
         print('------')
 
 def is_board_full(board):
-    # Check if the board is fully filled
+    # Check if the board is fully filled.
     for row in board:
         if ' ' in row:
             return False
