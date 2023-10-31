@@ -17,7 +17,7 @@ def is_board_full(board):
     return True
 
 def is_winner(board, player):
-    # Check for a winning combination
+    # Check for a winning combination.
     # Return True if the player has won
 
     # Check rows
